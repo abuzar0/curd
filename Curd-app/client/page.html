@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curd_APP</title>
+    <link rel="stylesheet" href="reg.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="main">
+    <div class="form" id="pop">
+        <h2 >Registeration  Form</h2>
+    <label for="frist">Name</label><br>
+    <input type="text" id="l_name" placeholder="Name" size="40" required><br><br>
+    <label for="mail">Mail</label><br>
+    <input  type="text" id="mail" placeholder="Mail" size="40" required><br><br>
+    <label for="password">Password</label><br>
+    <input type="text" id="password" placeholder="password" size="40" required><br><br>
+    <button id="submit">submit</button><br><br><br>
+    <label for="search">search</label><br>
+    <input type="text" id="s_name" placeholder="Enter id to search Record " size="40"><br><br>
+    <button id="search">Search</button>
+</div>
+ <div class="display">
+     <br>
+      <h2 >Data   Record</h2>
+         <table id="table">
+             <thead>
+                 <th>ID</th>
+                 <th>Name</th>
+                 <th>Mail</th>
+                 <th>Password</th>
+                 <th>Delete</th>
+                 <th>Update</th>
+             </thead>
+             <tbody></tbody>
+         </table>
+ </div>   
+ <div id="update" hidden>
+    <h2 >Update  Record </h2>
+    <label for="frist">Name</label><br>
+    <input type="text" id="u_name" placeholder="Name" size="40" required><br><br>
+    <label for="mail">Mail</label><br>
+    <input  type="text" id="u_mail" placeholder="Mail" size="40" required><br><br>
+    <label for="password">Password</label><br>
+    <input type="text" id="u_password" placeholder="password" size="40" required><br><br>
+    <button id="update_data">update</button><br><br><br>
+</div>
+</div> 
+</body>
+</html>
